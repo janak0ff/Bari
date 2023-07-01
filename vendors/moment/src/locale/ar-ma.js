@@ -1,7 +1,7 @@
 //! moment.js locale configuration
 //! locale : Arabic (Morocco) [ar-ma]
 //! author : ElFadili Yassine : https://github.com/ElFadiliY
-//! author : Abdel Said : https://github.com/abdelsaid
+//! author : Abdel Sid : https://github.com/abdelsid
 
 import moment from '../moment';
 

@@ -36,7 +36,7 @@ export default moment.defineLocale('gd', {
         nextDay : '[A-màireach aig] LT',
         nextWeek : 'dddd [aig] LT',
         lastDay : '[An-dè aig] LT',
-        lastWeek : 'dddd [seo chaidh] [aig] LT',
+        lastWeek : 'dddd [seo chidh] [aig] LT',
         sameElse : 'L'
     },
     relativeTime : {
@@ -44,8 +44,8 @@ export default moment.defineLocale('gd', {
         past : 'bho chionn %s',
         s : 'beagan diogan',
         ss : '%d diogan',
-        m : 'mionaid',
-        mm : '%d mionaidean',
+        m : 'mionid',
+        mm : '%d mionidean',
         h : 'uair',
         hh : '%d uairean',
         d : 'latha',

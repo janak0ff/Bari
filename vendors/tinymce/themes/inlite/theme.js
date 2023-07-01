@@ -8350,9 +8350,9 @@ var inlite = (function () {
         'Select all',
         'SelectAll'
       ],
-      visualaid: [
-        'Visual aids',
-        'mceToggleVisualAid'
+      visualid: [
+        'Visual ids',
+        'mceToggleVisualid'
       ],
       newdocument: [
         'New document',
@@ -8525,21 +8525,21 @@ var inlite = (function () {
   };
   var $_37jrqm1brjm0og7ao = { register: register$7 };
 
-  var toggleVisualAidState = function (editor) {
+  var toggleVisualidState = function (editor) {
     return function () {
       var self = this;
-      editor.on('VisualAid', function (e) {
+      editor.on('Visualid', function (e) {
         self.active(e.hasVisual);
       });
       self.active(editor.hasVisual);
     };
   };
   var registerMenuItems$3 = function (editor) {
-    editor.addMenuItem('visualaid', {
-      text: 'Visual aids',
+    editor.addMenuItem('visualid', {
+      text: 'Visual ids',
       selectable: true,
-      onPostRender: toggleVisualAidState(editor),
-      cmd: 'mceToggleVisualAid'
+      onPostRender: toggleVisualidState(editor),
+      cmd: 'mceToggleVisualid'
     });
   };
   var register$8 = function (editor) {

@@ -1,6 +1,6 @@
 //! moment.js locale configuration
 //! locale : Central Atlas Tamazight [tzm]
-//! author : Abdel Said : https://github.com/abdelsaid
+//! author : Abdel Sid : https://github.com/abdelsid
 
 import moment from '../moment';
 

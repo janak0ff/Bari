@@ -15,8 +15,9 @@
                          </div>
                          <?php
                             //Getting admin name
-                            $adminid = $_SESSION['aid'];
-                            $query = mysqli_query($con, "select name from admin where id='$adminid'");
+                            // $id = $_SESSION['user_id'];
+                            $adminid = $_SESSION['user_id'];
+                            $query = mysqli_query($con, "select name from user_form where id='$adminid'");
                             $row = mysqli_fetch_array($query);
                             ?>
                          <div class="media-body">

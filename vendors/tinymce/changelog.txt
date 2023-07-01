@@ -963,7 +963,7 @@ Version 4.1.1 (2014-07-08)
     Fixed bug where the resize helper wouldn't be correctly positioned on older IE versions.
     Fixed bug where fullpage plugin would produce an error if you didn't specify a doctype encoding.
     Fixed bug where anchor plugin would get the name/id of the current element even if it wasn't anchor element.
-    Fixed bug where visual aids for tables wouldn't be properly disabled when changing the border size.
+    Fixed bug where visual ids for tables wouldn't be properly disabled when changing the border size.
     Fixed bug where some control selection events wasn't properly fired on older IE versions.
     Fixed bug where table cell selection on older IE versions would prevent resizing of images.
     Fixed bug with paste_data_images paste option not working properly on modern IE versions.

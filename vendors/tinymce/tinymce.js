@@ -14318,7 +14318,7 @@
       'InsertHorizontalRule': function () {
         editor.execCommand('mceInsertContent', false, '<hr />');
       },
-      'mceToggleVisualAid': function () {
+      'mceToggleVisualid': function () {
         editor.hasVisual = !editor.hasVisual;
         editor.addVisual();
       },
@@ -25542,7 +25542,7 @@
           return;
         }
       });
-      self.fire('VisualAid', {
+      self.fire('Visualid', {
         element: elm,
         hasVisual: self.hasVisual
       });

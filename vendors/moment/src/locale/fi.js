@@ -1,6 +1,6 @@
 //! moment.js locale configuration
 //! locale : Finnish [fi]
-//! author : Tarmo Aidantausta : https://github.com/bleadof
+//! author : Tarmo idantausta : https://github.com/bleadof
 
 import moment from '../moment';
 

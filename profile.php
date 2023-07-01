@@ -2,12 +2,12 @@
 session_start();
 //error_reporting(0);
 include('includes/config.php');
-if (strlen($_SESSION['aid'] == 0)) {
+if (strlen($_SESSION['id'] == 0)) {
     header('location:logout.php');
 } else {
     // Add company Code
     if (isset($_POST['update'])) {
-        $adminid = $_SESSION['aid'];
+        $adminid = $_SESSION['id'];
         //Getting Post Values
         $name = $_POST['name'];
         $emailid = $_POST['emailid'];
@@ -70,7 +70,7 @@ if (strlen($_SESSION['aid'] == 0)) {
                                         <form class="needs-validation" method="post" novalidate>
                                             <?php
                                             //Getting admin name
-                                            $adminid = $_SESSION['aid'];
+                                            $adminid = $_SESSION['id'];
                                             $query = mysqli_query($con, "select * from admin where id='$adminid'");
                                             while ($row = mysqli_fetch_array($query)) {
                                             ?>

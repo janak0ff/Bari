@@ -1,6 +1,6 @@
 //! moment.js locale configuration
 //! locale : Arabic [ar]
-//! author : Abdel Said: https://github.com/abdelsaid
+//! author : Abdel Sid: https://github.com/abdelsid
 //! author : Ahmed Elkhatib
 //! author : forabi https://github.com/forabi
 

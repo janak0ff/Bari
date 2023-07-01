@@ -2,12 +2,12 @@
 session_start();
 //error_reporting(0);
 include('includes/config.php');
-if (strlen($_SESSION['aid'] == 0)) {
+if (strlen($_SESSION['id'] == 0)) {
     header('location:logout.php');
 } else {
     // Change password code
     if (isset($_POST['submit'])) {
-        $adminid = $_SESSION['aid'];
+        $adminid = $_SESSION['id'];
         $cpassword = md5($_POST['currentpassword']);
         $newpassword = md5($_POST['newpassword']);
         $query = mysqli_query($con, "select ID from admin where ID='$adminid' and   Password='$cpassword'");
